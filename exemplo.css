@@ -1,0 +1,39 @@
+    html {
+            scroll-behavior: smooth;
+        }
+
+        #introducao {
+            background-image: url(imagens/pinkbg.jpg);
+            background-repeat: round;
+        }
+
+        #sobre {
+            background-color: bisque;
+        }
+
+        #contacto {
+            background-color: blanchedalmond;
+        }
+
+        /* estilo simples para o formulario obrigatorio */
+        .form-grupo {
+            position: relative;
+            margin-top: 20px;
+            text-align: left;
+            max-width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        /* estilo basico de validacao */
+        .form-input:invalid {
+            border-color: red;
+        }
